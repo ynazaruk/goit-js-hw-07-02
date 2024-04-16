@@ -27,3 +27,14 @@ body {
   opacity: 0px;
 }
 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.gallery img {
+  max-width: 800px;
+}
