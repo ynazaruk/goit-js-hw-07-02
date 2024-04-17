@@ -3,7 +3,7 @@
 }
 ul,
 li {
-  list-style-type: none;
+  list-style: none;
 }
 
 body {
@@ -35,6 +35,9 @@ body {
   justify-content: center;
   gap: 20px;
 }
+
 .gallery img {
-  max-width: 800px;
+  display: block;
+  width: 360px;
+  height: 240px;
 }
